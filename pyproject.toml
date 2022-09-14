@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "data-glance"
+version = "0.1.0"
+description = ""
+authors = ["Sharad Shriyan <sharad30.ss@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.4.4"
+notebook = "^6.4.12"
+
+[tool.poetry.dev-dependencies]
+black = "^22.8.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
